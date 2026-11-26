@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ProffApp"
 include(":app")
+include(":uikit")

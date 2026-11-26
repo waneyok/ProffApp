@@ -7,11 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.proffapp.ui.theme.ProffAppTheme
+import com.example.uikit.storybook.StoryBookScreen
+import com.example.uikit.theme.ProffAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ProffAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    StoryBookScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
