@@ -22,3 +22,4 @@ val gradient = Brush.linearGradient(
         Color(0xFFF22E63)
     )
 )
+val Primary = Color(0xFFFA5075)

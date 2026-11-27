@@ -129,7 +129,7 @@ object ProfTextStyles {
 
     // Caption 2
     val caption2Regular = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = FontFamily(Font(R.font.poppins_regular)),
         fontWeight = FontWeight.Normal,
         fontSize = 12.sp,
         lineHeight = 16.sp,
@@ -140,6 +140,6 @@ object ProfTextStyles {
         fontWeight = FontWeight.Bold,
         fontSize = 12.sp,
         lineHeight = 16.sp,
-        letterSpacing = 0.sp
+        letterSpacing = 0.3f.sp
     )
 }
